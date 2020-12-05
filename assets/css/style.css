@@ -1,0 +1,53 @@
+@import url("fonts.css");
+@import url("reboot.css");
+@import url("responsive.css");
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #191919;
+    color: #FFF;
+}
+
+.row {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.margin-around {
+    display: flex;
+    margin: 20px;
+    width: calc(100% - 40px);
+}
+
+.padd-around {
+    display: flex;
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.x-center {
+    justify-content: center;
+}
+
+.y-center {
+    align-items: center;
+}
+
+.active a{
+    color: gold;
+}
